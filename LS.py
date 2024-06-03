@@ -176,7 +176,7 @@ if __name__ == '__main__':
 
     parser = ArgumentParser()
     parser.add_argument("--distribution", type=str,default='Physics', help="Distribution of dataset")
-    parser.add_argument("--num_repeat", type=int,default=1, help="num_repeat")
+    parser.add_argument("--num_repeat", type=int,default=50, help="num_repeat")
     # parser.add_argument("--step_factor", type=int,default=2, help="Step factor")
     
 
